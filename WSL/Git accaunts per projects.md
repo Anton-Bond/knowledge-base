@@ -130,6 +130,24 @@ git config user.email "email-account2@example.com"
 git remote add origin git@project-node22:USERNAME/REPO.git
 ```
 
+### Или глобально использовать `includeIf` для автоматического применения на основе пути:
+
+В ~/.gitconfig:
+
+```text
+[user]
+    name = Default Name
+    email = default@example.com
+
+[includeIf "gitdir:~/projects/project-a/"]
+    path = ~/.gitconfig-personal
+
+[includeIf "gitdir:~/projects/project-b/"]
+    path = ~/.gitconfig-work
+```
+
+Создай файлы `~/.gitconfig-personal` и `~/.gitconfig-work` с нужными `user.name`/`user.email`.
+
 ---
 
 ## 🟩 Шаг 4 — проверить работу
