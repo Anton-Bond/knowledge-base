@@ -66,7 +66,7 @@ git config --global core.safecrlf warn
 
 # Усановить Nerd Font
 
-Открыть `https://nerdfonts.com/font-downloads`, скачать *Hack Nerd Font*. Распокавать архив -> выделить все файлы кроме `Licence` и `Readme` -> ПКМ -> Установить
+Открыть `https://nerdfonts.com/font-downloads`, скачать _Hack Nerd Font_. Распокавать архив -> выделить все файлы кроме `Licence` и `Readme` -> ПКМ -> Установить
 
 # Install zsh and oh-my-zsh
 
@@ -108,9 +108,16 @@ GitHub Pull Requests and Issues / GitHub Repositories (опционально)
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
-# Подключим nvm в текущую сессию (выполняется также автоматически при новом shell)
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+# => If you wish to uninstall them at a later point (or re-install them under your
+# => `nvm` node installs), you can remove them from the system Node as follows:
+#
+#     $ nvm use system
+#     $ npm uninstall -g a_module
+#
+# => Close and reopen your terminal to start using nvm or run the following to use it now:
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion
 
 # Установим версии
 nvm install 24

@@ -1,7 +1,7 @@
 # Kаждый проект в WSL свой отдельный Git-аккаунт
 
-* Проект A → GitHub/ GitLab Account #1
-* Проект B → GitHub/ GitLab Account #2
+- Проект A → GitHub/ GitLab Account #1
+- Проект B → GitHub/ GitLab Account #2
 
 И чтобы это **автоматически** работало при коммите/push (разные email, юзернейм, SSH-ключи).
 
@@ -13,9 +13,9 @@
 
 **Каждый проект имеет:**
 
-* свой SSH-ключ
-* свой локальный `.git/config` с email/username
-* SSH сам выбирает ключ в зависимости от пути
+- свой SSH-ключ
+- свой локальный `.git/config` с email/username
+- SSH сам выбирает ключ в зависимости от пути
 
 После настройки ты сможешь работать:
 
@@ -47,7 +47,7 @@ ssh-keygen -t ed25519 -f ~/.ssh/id_account2 -C "email-account2@example.com"
 Публичный ключи (нужно добавить в GitHub/GitLab):
 
 ```bash
-~/.ssh/id_account1.pub  
+~/.ssh/id_account1.pub
 ~/.ssh/id_account2.pub
 ```
 
@@ -65,14 +65,14 @@ nano ~/.ssh/config
 
 ```text
 # === Project Node16: account1 ===
-Host project-node16
+Host account1.github.com
     HostName github.com
     User git
     IdentityFile ~/.ssh/id_account1
     IdentitiesOnly yes
 
 # === Project Node22: account2 ===
-Host project-node22
+Host account2.github.com
     HostName github.com
     User git
     IdentityFile ~/.ssh/id_account2
