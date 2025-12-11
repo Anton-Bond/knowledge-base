@@ -1,0 +1,8 @@
+{
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./attachments",
+  "showLineNumber": false,
+  "readableLineLength": true
+}

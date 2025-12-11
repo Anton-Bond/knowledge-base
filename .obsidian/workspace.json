@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "a83707cd13900400",
+    "type": "split",
+    "children": [
+      {
+        "id": "44e377918befb62d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "738e263b0cb90dd5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f11333d9363a02de",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c91b6774450c94c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdf6c1c3f081c9d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d7486505c6c66f7d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b427b50395b76276",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 322.5110321044922
+  },
+  "right": {
+    "id": "4c9b7868fb6fe456",
+    "type": "split",
+    "children": [
+      {
+        "id": "38cfe37a247e12d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e10b37afad290c03",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Learning/English/Classes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Classes"
+            }
+          },
+          {
+            "id": "42d6a983bd6b1006",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Learning/English/Classes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Classes"
+            }
+          },
+          {
+            "id": "4544727f1d76c1a4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "987dd91f32eb7f91",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Books/List to read.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of List to read"
+            }
+          },
+          {
+            "id": "a6ad4e66f0908c28",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "dbbae320b2fa9766",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 401.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "738e263b0cb90dd5",
+  "lastOpenFiles": [
+    "WSL/Git accaunts per projects.md",
+    "WSL/Cправочник по Python окружениям, pip, requirements и VS Code.md",
+    "Excalidraw/Drawing 2024-10-09 10.26.33.excalidraw.md",
+    "index.md",
+    "_resources/обложка книги человек мыслящий.jpg",
+    "Books/List to read.md",
+    "Learning/Angular/Lifecycle.md",
+    "Learning/Angular/Basic Terminology.md",
+    "Learning/Angular/Angular project structure.md",
+    "Learning/Guitar/attachments/Длительность.md",
+    "Learning/Guitar/attachments/Pasted image 20241227161834.png",
+    "Learning/Guitar/attachments/Pasted image 20241124165527.png",
+    "Learning/Guitar/attachments/Pasted image 20241124165125.png",
+    "Learning/Guitar/attachments/Pasted image 20241124161051.png",
+    "Learning/Guitar/attachments/Pasted image 20241124160641.png",
+    "Learning/Guitar/attachments/Pasted image 20241009180022.png",
+    "Learning/Guitar/attachments/Pasted image 20241008190451.jpg",
+    "Learning/Guitar/attachments/Pasted image 20241004115214.png",
+    "Learning/GIMP/Basics, Tools, Tips.md",
+    "Untitled.canvas",
+    "Learning/dotNET/Теория/NET collections.md",
+    "Learning/dotNET/Теория/State Machine code example.md",
+    "Learning/JS/Map, Set, WeekMap, WeekSet.md",
+    "Learning/JS/TS - type vs interface.md",
+    "Learning/dotNET/Теория/Вопросы на интервью по SignalR.md",
+    "Learning/dotNET/Inerview questions.md",
+    "Learning/dotNET/WebForms/Sources to learn.md",
+    "Learning/dotNET/Теория/IComparer и IComparable.md",
+    "Learning/dotNET/Теория/Платформа NET/Основные компоненты .NET.md",
+    "Learning/dotNET/Теория/Платформа NET/Основные составляющие платформы.md",
+    "Learning/dotNET/Теория/Платформа NET/Сборки.md",
+    "Learning/dotNET/Теория/Платформа NET/Экосистема .NET.md",
+    "Learning/dotNET/Теория/Сборщик мусора (GC).md",
+    "Learning/dotNET/Теория/Сборки и деплоймент (Assembly) в .NET.md",
+    "Learning/dotNET/Теория/Потокобезопасность в .NET.md",
+    "Learning/dotNET/Теория/Оптимизация, профилирование и повышение производительности в .NET.md",
+    "Learning/dotNET/Теория/Основы ООП/ООП мышление.drawio",
+    "Learning/English/attachments/Pasted image 20241017172605.png",
+    "Learning/dotNET/WebForms",
+    "Learning/dotNET/Теория/Микросервисы/Untitled",
+    "Learning/dotNET/Теория/Микросервисы",
+    "Learning/dotNET/Теория/Чистая архитектура",
+    "Learning/dotNET/Теория/Паттерны проектирования",
+    "Learning/dotNET/Теория/Тестирование и дебагинг",
+    "Learning/dotNET/Теория/Базы данных и проектирование",
+    "Learning/dotNET/Теория/Entity Framework Core",
+    "Learning/dotNET/Теория/REST API",
+    "Untitled 1.canvas"
+  ]
+}
