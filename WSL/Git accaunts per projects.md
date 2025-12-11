@@ -108,11 +108,10 @@ cd ~/projects/project-node16
 git init
 git config user.name "Account1 Name"
 git config user.email "email-account1@example.com"
-```
 
-И изменить remote:
-
-```bash
+# Изменить remote:
+git remote set-url origin git@project-node22:USERNAME/REPO.git
+# ИЛИ добавить
 git remote add origin git@project-node16:USERNAME/REPO.git
 ```
 
